@@ -6,12 +6,20 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color-fallback: rgb(0, 5, 48);
-  --main-title-color: rgb(219, 0, 255);
+  --logo-color: rgb(219, 0, 255);
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --accent-color: rgb(255, 0, 112);
+  --header-menu-color: rgb(255, 0, 112);
   --font-family: "IBM Plex Mono";
   --font-size: 18px;
   --article-text-color: rgb(241, 178, 206);
   --article-title-color: rgb(0, 0, 40);
   --content-padding: 10px;
   --button-hover: rgb(255, 0, 112, 0.4);
+}
+
+@media (width >= 768px) {
+  :root {
+    --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }

@@ -10,11 +10,11 @@
   */
   --bg-image: url(../images/cover-image-light.png);
   --bg-color-fallback: rgb(255, 238, 246);
-  --main-title-color: rgba(255, 194, 230);
+  --logo-color: rgba(255, 194, 230);
   --accent-color: rgba(255, 141, 203);
+  --header-menu-color: rgba(53, 52, 48);
   --article-text-color: rgba(53, 52, 48);
   --article-title-color: rgba(53, 52, 48);
-  --font-family: "IBM Plex Mono";
   --button-hover: rgba(50, 49, 45, 0.4);
 }
 
@@ -22,12 +22,11 @@
   :root {
     --bg-image: url(../images/cover-image-light.png);
     --bg-color-fallback: rgb(255, 238, 246);
-    --main-title-color: rgba(255, 194, 230);
+    --logo-color: rgba(255, 194, 230);
     --accent-color: rgba(255, 141, 203);
+    --header-menu-color: rgba(53, 52, 48);
     --article-text-color: rgba(53, 52, 48);
     --article-title-color: rgba(53, 52, 48);
-    --font-family: "IBM Plex Mono";
-    --font-size: 18px;
     --button-hover: rgba(50, 49, 45, 0.4);
   }
 }
